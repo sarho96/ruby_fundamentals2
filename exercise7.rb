@@ -22,3 +22,10 @@ students[:cohort4] = 43
 students.each do |key, value|
   puts "#{key}"
 end
+
+#increase each cohort size by 5% and display new results
+
+students.each do |key, value|
+  students[key] = value * 1.05
+end
+puts cohort_list(students)
