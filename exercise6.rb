@@ -14,4 +14,8 @@ p output_list(grocery_list)
 #add rice
 grocery_list.push "rice"
 
+#test output with new addition to list
 p output_list(grocery_list)
+
+#output grocery list size
+puts grocery_list.size
