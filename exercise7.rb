@@ -29,3 +29,8 @@ students.each do |key, value|
   students[key] = value * 1.05
 end
 puts cohort_list(students)
+
+
+#delete 2nd cohort_list
+students.delete (:cohort2)
+puts cohort_list(students)
