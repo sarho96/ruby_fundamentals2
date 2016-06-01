@@ -29,3 +29,7 @@ end
 #Display the second item in the list.
 
 puts grocery_list[1]
+
+#sort grocery list and output it with asterisks
+
+puts "#{grocery_list.sort}#{output_list(grocery_list)}"
