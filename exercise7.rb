@@ -1,8 +1,8 @@
 #create a hash that represents the number of students in past Bitmaker cohorts
 students = {
-:cohort1 => 34,
-:cohort2 => 42,
-:cohort3 => 22
+cohort1: 34,
+cohort2: 42,
+cohort3: 22
 }
 
 
@@ -16,3 +16,7 @@ end
 end
 
 puts cohort_list(students) #output method and assign students into parameter
+
+#add cohort4: 43 students to hash
+students[:cohort4] = 43 #
+puts cohort_list(students)
