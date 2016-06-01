@@ -33,3 +33,7 @@ puts grocery_list[1]
 #sort grocery list and output it with asterisks
 
 puts "#{grocery_list.sort}#{output_list(grocery_list)}"
+
+# Delete salmon from your list and redisplay the list one last time.
+puts grocery_list.delete("salmon")
+puts output_list(grocery_list)
